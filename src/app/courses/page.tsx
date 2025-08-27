@@ -1,8 +1,13 @@
 "use client";
-import React from 'react'
-import courseData from "@/data/ai_data_science.json"
-import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
-import Image from "next/image"
+import React from "react";
+import courseData from "@/data/ai_data_science.json";
+import {
+    CardBody,
+    CardContainer,
+    CardItem,
+} from "@/components/ui/3d-card";
+import Image from "next/image";
+
 interface CourseCard {
     id: number;
     title: string;
@@ -13,12 +18,15 @@ interface CourseCard {
     isFeatured: boolean;
     image: string;
 }
-const coursesPage = () => {
+
+const CoursesPage = () => {
     return (
-        <div className='min-h-screen bg-black py-12 pt-36'>
-            <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">All courses ({courseData.length})</h1>
+        <div className="min-h-screen bg-black py-12 pt-36">
+            <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
+                All courses ({courseData.length})
+            </h1>
             <div className="flex flex-wrap justify-center">
-                {courseData.map((course) => (
+                {courseData.map((course: CourseCard) => (
                     <CardContainer key={course.id} className="inter-var m-4">
                         <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
                             <CardItem
@@ -62,10 +70,9 @@ const coursesPage = () => {
                         </CardBody>
                     </CardContainer>
                 ))}
-
             </div>
-        </div >
-    )
-}
+        </div>
+    );
+};
 
-export default coursesPage
+export default CoursesPage;

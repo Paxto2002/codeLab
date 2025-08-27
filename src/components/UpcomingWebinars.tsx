@@ -1,14 +1,16 @@
-"use client"
+"use client";
 import React from "react";
 import Link from "next/link";
 import { HoverEffect } from "./ui/card-hover-effect";
-interface Webinars {
+
+interface Webinar {
     title: string;
     description: string;
     slug: string;
     isFeatured: boolean;
 }
-const featuredWebinars = [
+
+const featuredWebinars: Webinar[] = [
     {
         title: "AI in Everyday Life: From Chatbots to Smart Assistants",
         description:
@@ -56,8 +58,11 @@ const UpcomingWebinars = () => {
                     </h2>
                     <p className="text-white text-3xl font-bold mt-3 text-center">
                         Your Next
-                        <span className="text-teal-400 text-4xl font-extrabold "> Breakthrough</span> Starts
-                        Here
+                        <span className="text-teal-400 text-4xl font-extrabold">
+                            {" "}
+                            Breakthrough
+                        </span>{" "}
+                        Starts Here
                     </p>
                 </div>
                 <div className="mt-10">
