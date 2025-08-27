@@ -25,9 +25,18 @@ const Navbar = ({ className }: { className?: string }) => {
           <HoveredLink href="/">Home</HoveredLink>
         </MenuItem>
 
-        {/* Our Courses Dropdown */}
         <MenuItem setActive={setActive} active={active} item="Our Courses">
-          <div className="flex flex-col space-y-2 p-2">
+          {/* Link when clicked */}
+          <Link
+            href="/courses"
+            className="block font-semibold hover:text-teal-400 transition-colors"
+            onClick={() => setActive("Our Courses")}
+          >
+            Our Courses
+          </Link>
+
+          {/* Dropdown shown on hover */}
+          <div className="absolute top-full left-0 mt-1 hidden group-hover:flex flex-col bg-gray-900 p-2 rounded shadow-lg">
             {courses.map((course) => (
               <HoveredLink key={course.href} href={course.href}>
                 {course.title}
@@ -35,6 +44,7 @@ const Navbar = ({ className }: { className?: string }) => {
             ))}
           </div>
         </MenuItem>
+
 
         {/* Contact */}
         <MenuItem setActive={setActive} active={active} item="Contact Us">
