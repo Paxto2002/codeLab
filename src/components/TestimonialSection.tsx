@@ -24,7 +24,7 @@ const testimonialCards = [
     },
     {
         quote:
-            "I’ve tried multiple platforms before, but CodeLab stands out for its hands-on approach. The instructors mentor you through challenges.",
+            "I&apos;ve tried multiple platforms before, but CodeLab stands out for its hands-on approach. The instructors mentor you through challenges.",
         name: "Ahmed Raza",
         title: "AI Research Intern at VisionAI",
     },
@@ -42,7 +42,7 @@ const testimonialCards = [
     },
     {
         quote:
-            "CodeLab’s AI course helped me understand neural networks and machine learning algorithms in depth. The practical exercises made complex topics easy to grasp.",
+            "CodeLab&apos;s AI course helped me understand neural networks and machine learning algorithms in depth. The practical exercises made complex topics easy to grasp.",
         name: "Aisha Siddiqui",
         title: "AI Developer at NeuralTech",
     },
@@ -60,11 +60,12 @@ const testimonialCards = [
     },
     {
         quote:
-            "From beginner to job-ready, CodeLab’s structured curriculum guided me every step of the way. I gained confidence, completed portfolio projects, and landed my dream role.",
+            "From beginner to job-ready, CodeLab&apos;s structured curriculum guided me every step of the way. I gained confidence, completed portfolio projects, and landed my dream role.",
         name: "Ethan Brown",
         title: "Junior Data Scientist at CloudMatrix",
     },
 ];
+
 
 const TestimonialSection = () => {
     return (
@@ -78,8 +79,8 @@ const TestimonialSection = () => {
       "
         >
             <h2 className="text-3xl tracking-wide uppercase text-center my-3 font-bold">
-                From Learning to Launching: Our{" "}
-                <span className="text-teal-400 text-5xl">Students'</span> Journeys
+                From Learning to Launching: Our
+                <span className="text-teal-400 text-5xl"> Students&apos;</span> Journeys
             </h2>
 
             <div className="w-full flex justify-center">

@@ -4,7 +4,6 @@ import { BackgroundGradient } from "./ui/background-gradient";
 import courseData from "@/data/ai_data_science.json";
 import Link from "next/link";
 import Image from "next/image";
-import { Button } from "./ui/moving-border";
 
 interface Course {
     id: number;

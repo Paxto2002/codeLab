@@ -1,7 +1,6 @@
 "use client"
 import React from "react";
 import Link from "next/link";
-import { CardDescription } from "./ui/card-hover-effect";
 import { HoverEffect } from "./ui/card-hover-effect";
 interface Webinars {
     title: string;
@@ -18,7 +17,7 @@ const featuredWebinars = [
         isFeatured: true,
     },
     {
-        title: "Breaking Into Data Science: A Beginner’s Roadmap",
+        title: "Breaking Into Data Science: A Beginner's Roadmap",
         description:
             "Learn the essential skills and tools needed to kickstart your journey in data science, including Python, SQL, and the mindset of a data-driven professional.",
         slug: "breaking-into-data-science",
