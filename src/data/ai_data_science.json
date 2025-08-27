@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Foundations of Machine Learning",
+    "slug": "foundations-of-machine-learning",
+    "description": "Master core machine learning concepts including regression, classification, and clustering algorithms. Build practical projects using Scikit-learn and understand model evaluation techniques.",
+    "price": 79,
+    "instructor": "Dr. Elena Rodriguez",
+    "isFeatured": true,
+    "image": "/1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Deep Learning with TensorFlow",
+    "slug": "deep-learning-with-tensorflow",
+    "description": "Dive into neural networks, convolutional networks, and recurrent networks using TensorFlow. Learn to build and train complex models for various AI applications.",
+    "price": 99,
+    "instructor": "Professor James Chen",
+    "isFeatured": true,
+    "image": "/2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Natural Language Processing Fundamentals",
+    "slug": "natural-language-processing-fundamentals",
+    "description": "Explore text processing, sentiment analysis, and language modeling techniques. Work with modern NLP libraries like SpaCy and NLTK to build intelligent text applications.",
+    "price": 89,
+    "instructor": "Dr. Maya Patel",
+    "isFeatured": false,
+    "image": "/3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Advanced Data Visualization with Python",
+    "slug": "advanced-data-visualization-with-python",
+    "description": "Create compelling visualizations using Matplotlib, Seaborn, and Plotly. Learn to tell data stories effectively through interactive dashboards and professional charts.",
+    "price": 69,
+    "instructor": "Michael Roberts",
+    "isFeatured": false,
+    "image": "/4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Computer Vision with OpenCV",
+    "slug": "computer-vision-with-opencv",
+    "description": "Master image processing, object detection, and facial recognition using OpenCV. Build real-world computer vision applications from scratch.",
+    "price": 94,
+    "instructor": "Dr. Alex Turner",
+    "isFeatured": true,
+    "image": "/5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "AI Strategy for Business Leaders",
+    "slug": "ai-strategy-for-business-leaders",
+    "description": "Learn how to implement AI solutions in business environments, measure ROI, and develop AI-driven strategies. No technical background required.",
+    "price": 149,
+    "instructor": "Sarah Williamson",
+    "isFeatured": false,
+    "image": "/6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Data Engineering with Apache Spark",
+    "slug": "data-engineering-with-apache-spark",
+    "description": "Design and build scalable data pipelines using Apache Spark and cloud technologies. Learn data processing, ETL workflows, and big data architecture patterns.",
+    "price": 119,
+    "instructor": "David Kim",
+    "isFeatured": true,
+    "image": "/7.jpg"
+  }
+]
